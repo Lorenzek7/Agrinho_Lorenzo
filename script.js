@@ -3,49 +3,49 @@ const itensReciclaveis = [
     { 
         nome: "Garrafa PET", 
         tipo: "plastico", 
-        emoji: "🧴", 
+        emoji: "🧴 Recipiente de sabonete líquido de plástico", 
         descricao: "Leva até 400 anos para se decompor no meio ambiente. Reciclar uma tonelada de plástico economiza cerca de 130 kg de petróleo." 
     },
     { 
         nome: "Jornal", 
         tipo: "papel", 
-        emoji: "📰", 
+        emoji: "📰 Jornal", 
         descricao: "O papel pode ser reciclado até 7 vezes. Cada tonelada de papel reciclado poupa 22 árvores e consome 70% menos energia." 
     },
     { 
         nome: "Lata de Alumínio", 
         tipo: "metal", 
-        emoji: "🥫", 
+        emoji: "🥫 Lata de molho de tomate", 
         descricao: "O alumínio é 100% reciclável infinitamente. Reciclar uma lata economiza energia suficiente para manter uma TV ligada por 3 horas." 
     },
     { 
         nome: "Garrafa de Vidro", 
         tipo: "vidro", 
-        emoji: "🍾", 
+        emoji: "🍾 Garrafa de Vinho", 
         descricao: "O vidro leva 1 milhão de anos para se decompor, mas pode ser reciclado infinitamente sem perder pureza ou qualidade." 
     },
     { 
         nome: "Embalagem Tetra Pak", 
         tipo: "papel", 
-        emoji: "🥛 Embalagem leite de papelão", 
+        emoji: "🥛 Embalagem de leite de papelão", 
         descricao: "Compõe-se de 75% papel, 20% plástico e 5% alumínio. Pode ser reciclado para fazer telhas, placas e outros produtos." 
     },
     { 
         nome: "Copo Descartável", 
         tipo: "plastico", 
-        emoji: "🥤", 
+        emoji: "🥤Copo de plástico descartável", 
         descricao: "Um copo plástico pode levar até 450 anos para se decompor. Opte por copos reutilizáveis para reduzir este impacto." 
     },
     { 
         nome: "Folha de Alumínio", 
         tipo: "metal", 
-        emoji: "🧻", 
+        emoji: "🧻 Papel Alumínio", 
         descricao: "Pode ser reciclada infinitamente. Limpe antes de descartar para facilitar o processo de reciclagem." 
     },
     { 
         nome: "Pote de Conserva", 
         tipo: "vidro", 
-        emoji: "🧂", 
+        emoji: "🧂 Recipiente de sal de vidro", 
         descricao: "Não precisa ser descartado após o uso. Pode ser esterilizado e reutilizado muitas vezes para armazenar alimentos." 
     }
 ];
