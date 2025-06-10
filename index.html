@@ -60,6 +60,50 @@ Entretanto, educar vai além de transmitir conteúdos acadêmicos. É também fo
                 </div>
             </div>
 
+        <section id="jogo-reciclagem" class="mt-5 p-4 bg-light rounded-3">
+            <h2 class="text-center mb-4">Desafio da Reciclagem</h2>
+            <p class="text-center">Arraste cada item para o cesto correto e aprenda sobre coleta seletiva!</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="itens-container" class="d-flex flex-wrap gap-3 p-3 bg-white rounded-2">
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="cesto bg-primary text-white p-3 rounded text-center" data-tipo="plastico">
+                                <h4><i class="bi bi-recycle"></i> Plástico</h4>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cesto bg-warning text-dark p-3 rounded text-center" data-tipo="papel">
+                                <h4><i class="bi bi-file-earmark"></i> Papel</h4>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cesto bg-success text-white p-3 rounded text-center" data-tipo="vidro">
+                                <h4><i class="bi bi-cup-straw"></i> Vidro</h4>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="cesto bg-secondary text-white p-3 rounded text-center" data-tipo="metal">
+                                <h4><i class="bi bi-coin"></i> Metal</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="placar" class="text-center mt-4 fs-5 fw-bold text-success">
+                Pontuação: <span id="pontos">0</span>
+            </div>
+            
+            <div id="feedback" class="alert alert-success mt-3 text-center" style="display:none;"></div>
+        </section>
+    </main>
+
     <!---Footer--->
 
     <footer class="container py-5">
