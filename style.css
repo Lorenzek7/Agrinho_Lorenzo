@@ -1,0 +1,28 @@
+:root {
+    --cor-principal: hsl(46, 41%, 27%);
+    --cor-secundaria: #b1b407;
+    --cor-destaque: #c0d853;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
